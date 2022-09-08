@@ -2,6 +2,8 @@
 /**
  * Main - Entry point
  *
+ * Description: Using printf function
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
