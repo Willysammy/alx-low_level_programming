@@ -4,7 +4,7 @@ int main(void)
 {
 	puts("Programming is like building a multilingual puzzle");
 
-	getchar();
+        putchar(0);
 	return 0;
 }
 
