@@ -13,6 +13,7 @@ int main(void)
 	{
 		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
 		{
+			putchar(' ');
 			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 			{
 				for (digit4 = digit3 + 1; digit4 < 10; digit4++)
