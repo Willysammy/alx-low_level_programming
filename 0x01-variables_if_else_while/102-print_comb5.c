@@ -20,7 +20,7 @@ int main(void)
 				putchar((digit1 % 10) + '0');
 				putchar((digit2 % 10) + '0');
 				putchar((digit3 % 10) + '0');
-				putchar((digit4 % 10) + '0');
+				putchar((digit4 % 10) + '1');
 
 				if (digit1 == 9 && digit2 == 8)
 					continue;
