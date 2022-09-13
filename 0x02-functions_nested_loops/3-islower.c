@@ -2,7 +2,7 @@
 
 /**
  * islower - check for lowercase
- *@c: is the int that will be used
+ * @c: is the int that will be used for the argument of the function
  * Return: return 0
  */
 int _islower(int c)
