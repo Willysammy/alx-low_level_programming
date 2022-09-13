@@ -1,20 +1,22 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- * main - Entry point
+ * main -- Entry point
  *
- * Description: Print "_putchar" followed by a new line
+ * Description: printing an output using "_putchar()" alone
  * Return: Always 0 (Success)
  */
-int _putchar(char a)
-{
-	return (a);
-}
 int main(void)
 {
-	char result = _putchar("_putchar");
-
-	_putchar(result);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
