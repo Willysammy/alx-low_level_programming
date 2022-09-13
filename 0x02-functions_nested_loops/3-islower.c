@@ -3,9 +3,9 @@
 /**
  * islower - check for lowercase
  *@c: is the int that will be used
- * Return: return 1 otherwise return 0
+ * Return: return 0
  */
-int islower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
