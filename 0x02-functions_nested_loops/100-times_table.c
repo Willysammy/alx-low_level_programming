@@ -3,7 +3,6 @@
 
 /**
  * print_times_table - Function to print the mutiplication tables of digits less than 15
- *
  * @n: Variable to declare
  * Return: Always void
  */
@@ -11,7 +10,7 @@ void print_times_table(int n)
 {
 	int a = 0, r, b;
 
-	if (n < 0 || n> 5)
+	if (n < 0 || n > 15)
 		return;
 
 	while (a <= n)
