@@ -2,8 +2,8 @@
 
 /**
  * add - Function to add two ints and return the result
- *
- * @a, b: variables to declare
+ * @a: first variable
+ * @b: second variable
  * Return: Return value
  */
 int add(int a, int b)
