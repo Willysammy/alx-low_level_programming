@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_times_table - Function to print the mutiplication tables of digits less than 15
+ * print_times_table - Function to print the mutiplication table
  * @n: Variable to declare
  * Return: Always void
  */
