@@ -26,17 +26,17 @@ int main(void)
 	j3 = k / 1000000000;
 	j4 = k % 1000000000;
 
-	for (i = 92; i < 99; ++i);
-	{
-		printf(", %lu", j3 + (j4 / 1000000000));
-		printf("%lu", j4 % 1000000000);
-		j3 = j3 + j1;
-		j1 = j3 - j1;
-		j4 = j4 + j2;
-		j2 = j4 - j2;
-	}
+		for (i = 92; i < 99; ++i);
+		{
+			printf(", %lu", j3 + (j4 / 1000000000));
+			printf("%lu", j4 % 1000000000);
+			j3 = j3 + j1;
+			j1 = j3 - j1;
+			j4 = j4 + j2;
+			j2 = j4 - j2;
+		}
 
-	printf("\n");
+		printf("\n");
 
-	return (0);
+		return (0);
 }
