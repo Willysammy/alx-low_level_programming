@@ -9,21 +9,35 @@
  */
 void print_times_table(int n)
 {
-	int p;
-	int prod;
+	int num, mult, prod;
 
-	for (p = 0; p <= 12; p++)
+	if (n >= 0 && n <= 15)
 	{
-		printf("0\n");
-		for (n = 0; n <= 15; n++)
+		for (num = 0; num <= n; num++);
 		{
-			printf("%d\n", n);
-			prod = p * n;
-			printf("%d\n", prod);
-
-			if (n > 15 || n < 0)
+			_putchar('0');
 			{
-				continue;
+				for (mult = 1; mult <= n; mult++)
+				{
+					_putchar(',');
+					_putchar(' ');
+					prod = num * mult;
+					if (prod <= 99)
+						_putchar(' ');
+					if (prod <= 9)
+						_putchar(' ');
+					if (prod >= 100)
+					{
+						_putchar((prod / 10) + '0');
+						_putchar((prod / 10) % 10 + '0');
+					}
+					else if (prod <= 99 && prod >= 10)
+					{
+						_putchar((prod / 10) + '0');
+						_putchar((prod % 10) + '0');
+					}
+					_putchar('\n');
+				}
 			}
 		}
 	}
