@@ -16,6 +16,11 @@ void jack_bauer(void)
 			_putchar((i % 10) + '0');
 			_putchar(':');
 			_putchar((j % 10) + '0');
+			
+			if (i == 23 && j == 5)
+			{
+				continue;
+			}
 		}
 	}
 }
