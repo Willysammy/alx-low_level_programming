@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Fibonaaci 
+ * main - Fibonacci
  * Return: Success
  */
 int main(void)
