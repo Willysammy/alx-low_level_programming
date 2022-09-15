@@ -1,23 +1,17 @@
 #include "main.h"
 
 /** _isupper - Functio to print is integer is upper or not
- *
+ * @c: variable
  * Return: returns 1 otherwise 0
  */
 int _isupper(int c)
 {
-	for (c = 65; c <= 90; c++)
+	if (c = 65 || c <= 90)
 	{
-		if (c = 97 || c <= 122)
-		{
-			return (0);
-			continue;
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
 	}
-	_putchar('\n');
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
