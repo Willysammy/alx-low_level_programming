@@ -13,7 +13,11 @@ int _isupper(int c)
 			return (0);
 			continue;
 		}
+		else
+		{
+			return (0);
+		}
 	}
 	_putchar('\n');
-	return (1);
+	return (0);
 }
