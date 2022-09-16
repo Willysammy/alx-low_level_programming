@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _isdigit - check for digits
- * to see if true or false
- * @c: variable to declare
- * Return: Always 0 or 1
+ * _isdigit - checks for digits
+ * @c: parameter
+ * Return: 0 or 1
  */
+
 int _isdigit(int c)
 {
-	if (c == 48 || c <= 57)
+	if (c >= 48 && c < 58)
 	{
 		return (1);
 	}
