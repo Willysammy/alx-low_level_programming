@@ -1,24 +1,19 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print numbers
- * @c: variable
- * Return: Always 0
+ * print_most_numbers - prints number
  */
+
 void print_most_numbers(void)
 {
-	int c;
+	int i;
 
-	for (c = 48; c <= 57; c++)
+	for (i = 48; i < 58; i++)
 	{
-		if (c == 50 || c == 52)
+		if (i != 50 && i != 52)
 		{
-			continue;
+			_putchar(i);
 		}
-		else
-		{
-			_putchar(c);
-		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
