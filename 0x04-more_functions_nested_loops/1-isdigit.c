@@ -2,6 +2,7 @@
 
 /**
  * _isdigit - check for digits
+ * to see if true or false
  * @c: variable to declare
  * Return: Always 0 or 1
  */
