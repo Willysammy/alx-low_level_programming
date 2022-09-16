@@ -2,7 +2,8 @@
 
 /**
  * _isdigit - check for digits
- * Return: Always 0
+ * @c: variable to declare
+ * Return: Always 0 or 1
  */
 int _isdigit(int c)
 {
