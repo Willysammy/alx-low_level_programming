@@ -2,6 +2,7 @@
 #define MAIN_H
 
 int main(void);
+int _putchar(char);
 void reset_to_98(int *n);
 
 #endif /* MAIN_H */
