@@ -2,7 +2,7 @@
 
 /**
  * _puts - function to print strings to stdout
- * @c: variable
+ * @str: variable
  *
  * Return: Always 0
  */
