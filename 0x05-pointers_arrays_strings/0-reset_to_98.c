@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - to reset pointer to 98
+ * @n: variable to declare
  *
  * Return: Always 0
  */
