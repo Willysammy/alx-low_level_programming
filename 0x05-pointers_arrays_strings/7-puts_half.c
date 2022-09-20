@@ -10,24 +10,16 @@ void puts_half(char *str)
 {
 	int count, half;
 
-	count = 0;
-	while (count >= 0)
+	if (str < 0)
 	{
-		if (str[count] == '\0')
-		{
-			break;
-			count++;
-		}
-		if (count % 2 == 1)
-		{
-			half = count / 2;
-		}
-		else
-		{
-			half = (count - 1) / 2;
-			for (; half < count; half++)
-				_putchar(str[half]);
-		}
-		_putchar('\n');
+		half = -1 * (count % 10);
+		_putchar(half + '0');
+		return (half);
+	}
+	else
+	{
+		half = count % 10;
+		_putchar(half + '0');
+		return (half);
 	}
 }
