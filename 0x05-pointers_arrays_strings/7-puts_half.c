@@ -1,25 +1,32 @@
-#include "main.h"
-
-/**
- * puts_half -Function to half of a string
- * @str: variable
- *
- * Return: Always 0
- */
-void puts_half(char *str)
-{
-	int count, half;
-
-	if (str < 0)
-	{
-		half = -1 * (count % 10);
-		_putchar(half + '0');
-		return (half);
-	}
-	else
-	{
-		half = count % 10;
-		_putchar(half + '0');
-		return (half);
-	}
-}
+#include "main.h" 
+  
+ /** 
+  * puts_half - prints half of a string. 
+  * @str: param 
+  */ 
+ void puts_half(char *str) 
+ { 
+         int count = 0, i; 
+  
+         while (count >= 0) 
+         { 
+                 if (str[count] == '\0') 
+                         break; 
+                 count++; 
+         } 
+  
+	 if (count % 2 == 1)
+	 {
+	      	 i = count / 2;
+	 } 
+         else
+ 	 { 
+                 i = (count - 1) / 2;
+	 } 
+  
+        for (i++; i < count; i++)
+ 	{ 
+		_putchar(str[i]);
+ 	}	
+        _putchar('\n'); 
+ }
