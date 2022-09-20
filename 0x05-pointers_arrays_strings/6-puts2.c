@@ -1,24 +1,19 @@
 #include "main.h"
 
 /**
- * puts2 -Function to print something
- * @str: variable
- *
- * Return: Always 0
+ * puts2 - skips 2
+ * @str: string
  */
 void puts2(char *str)
 {
-	int count;
+	int i;
 
-	
-	count = 0;
-	while (str[count] != '\0')
+	i = 0;
+	while (str[i] != '\0')
 	{
-		if (count % 2 == 0)
-		{
-			_putchar(str[count]);
-			count++;
-		}
-		_putchar('\n');
+		if (i % 2 == 0)
+			_putchar(str[i]);
+		i++;
 	}
+	_putchar('\n');
 }
