@@ -3,7 +3,7 @@
 
 /**
  * print_array - function to print arrays
- * @*a: pointer variable
+ * @a: pointer variable
  * @n: second variable
  *
  * Return: always 0
