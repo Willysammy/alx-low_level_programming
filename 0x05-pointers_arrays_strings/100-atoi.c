@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _atoi - Function to convert sring to integer
- * @s: Variable
- *
- * Return: Always 0
+ * _atoi - converts a string to an integer.
+ * @s: params
+ * Return: something
  */
 int _atoi(char *s)
 {
@@ -12,11 +11,13 @@ int _atoi(char *s)
 
 	while (*(s + count) != '\0')
 	{
-		if (size > 0 && (*(s + count) < '\0' || *(s + count) > '9'))
+		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
+
 		if (*(s + count) == '-')
 			k *= -1;
-		if ((*(s + count) >= '\0') && (*(s + count) <= '9'))
+
+		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 		{
 			if (size > 0)
 				m *= 10;
