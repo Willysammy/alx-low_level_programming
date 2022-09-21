@@ -25,5 +25,6 @@ char *_strncat(char *dest, char *src, int n)
 		c++;
 	}
 	dest[c] = '\0';
+
 	return (dest);
 }	
