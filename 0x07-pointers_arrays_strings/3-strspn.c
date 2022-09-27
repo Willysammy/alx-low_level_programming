@@ -2,9 +2,8 @@
 
 /**
  * _strspn - Get length of a prefix substring
- * @s: pointer variable
+ * @s: first pointer variable
  * @accept: second pointer variable
- *
  * Return: count
  */
 unsigned int _strspn(char *s, char *accept)
@@ -27,13 +26,16 @@ unsigned int _strspn(char *s, char *accept)
 				count++;
 				break;
 			}
+
 			j++;
 		}
 		if (s[i] == accept[j])
 		{
 			break;
 		}
+
 		i++;
 	}
+
 	return (count);
 }
