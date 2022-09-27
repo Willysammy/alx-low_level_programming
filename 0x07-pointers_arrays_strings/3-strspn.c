@@ -5,7 +5,7 @@
  * @s: pointer variable
  * @accept: second pointer variable
  *
- * Return: 0
+ * Return: count
  */
 unsigned int _strspn(char *s, char *accept)
 {
