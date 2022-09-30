@@ -5,7 +5,7 @@
  * main - function main
  * @argc: argument count
  * @argv: argument vector
- * Return: 0 on success else 1
+ * Return: Return 0 on success else 1
  */
 int main(int argc, char *argv[])
 {
@@ -16,7 +16,9 @@ int main(int argc, char *argv[])
 	{
 		s = atoi(argv[1]);
 		j = atoi(argv[2]);
-		printf("%i\n", s * j);
+
+		printf("%i\n", s *j);
+
 		return (0);
 	}
 	else
