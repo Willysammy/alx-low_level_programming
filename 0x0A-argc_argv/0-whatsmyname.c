@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - print to return integer
@@ -8,14 +8,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	(void) argc;
 
-	for (i = 1; i < argc; i++)
-	{
-		char *c = argv[i];
+	printf("%s\n", argv[0]);
 
-		_putchar(*c);
-	}
-	_putchar('\n');
 	return (0);
 }
