@@ -1,5 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - print to return integer
@@ -13,7 +12,10 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		printf("%s\n", argv[i]);
+		char *c = argv[i];
+
+		_putchar(*c);
 	}
+	_putchar('\n');
 	return (0);
 }
