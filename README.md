@@ -1,1 +1,1 @@
-My first C programming
+My first projects on C-programming language 
