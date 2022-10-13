@@ -2,19 +2,15 @@
 #include <stdio.h>
 
 /**
- * print_numbers - prints integers separated by strings
+ * print_numbers - prints integers
  * @separator: separating string
  * @n: number of integers
- * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int count;
 
-
-	if (separator == NULL)
-		return;
 	va_start(ap, n);
 	count = 0;
 	while (count < n)
