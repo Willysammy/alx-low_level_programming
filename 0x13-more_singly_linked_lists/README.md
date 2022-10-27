@@ -1,1 +1,1 @@
-More singly linked lists in C language
+This is a repository containing tasks involving singly linked lists
